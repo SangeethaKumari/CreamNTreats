@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="cardView_height">160dp</dimen>
+    <dimen name="cardView_layout_margin">4dp</dimen>
+    <dimen name="cardView_width">120dp</dimen>
+    <dimen name="cardView_radius">8dp</dimen>
+    <dimen name="cardView_elevation">8dp</dimen>
+    <dimen name="imageview_height">120dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="recipe_ingredient_size">20sp</dimen>
+    <dimen name="recipe_ingredient_label_size">24sp</dimen>
+    <dimen name="textview_size">16sp</dimen>
+
+    <dimen name="exo_player_view_margin">10dp</dimen>
+    <dimen name="exo_player_view_height">200dp</dimen>
+    <dimen name="step_margin">16dp</dimen>
+    <dimen name="step_description_padding">16dp</dimen>
+
+
+</resources>

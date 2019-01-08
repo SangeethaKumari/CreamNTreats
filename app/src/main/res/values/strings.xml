@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CreamNTreats</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_recipe_details">RecipeDetailsActivity</string>
+    <string name="selected_recipe_bundle">SELECTED_RECIPES</string>
+    <string name="selected_recipe_name">SELECTED_RECIPE_NAME</string>
+    <string name="selected_recipe_step_bundle">SELECTED_RECIPE_STEP_BUNDLE</string>
+    <string name="selected_recipe_step_index">SELECTED_RECIPE_STEP_index</string>
+
+    <string name="title_activity_recipe_step_details">RecipeStepDetailsActivity</string>
+    <string name="ingredients">RECIPE INGREDIENTS</string>
+
+    <string name="recipe_steps_label">RECIPE STEPS</string>
+
+    <string name="next">NEXT</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="exoPlayerView">EXO_PLAYER_VIEW</string>
+    <string name="step_description_label">DESCRIPTION</string>
+    <string name="step_description_value">Steps description</string>
+
+
+</resources>

@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_margin"
+    android:orientation="vertical"
+    tools:context="com.android.creamntreats.Fragment.RecipeDetailsFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/recipe_ingredients_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ingredients"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/recipe_ingredient_label_size"/>
+
+            />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"/>
+
+            <TextView
+                android:id="@+id/recipe_ingredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/recipe_ingredient_size"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:id="@+id/recipe_steps_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recipe_steps_label"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/recipe_ingredient_label_size"
+        />
+
+    />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_recipe_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
